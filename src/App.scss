@@ -14,4 +14,30 @@
   height: 300px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  filter: var(--SoftViolet(100%));
+}
+.bottom {
+  color: var(--White);
+  height: 400px;
+  margin: 2rem 3.5rem;
+  text-align: center;
+}
+.title {
+  font-size: 30px;
+}
+.accent {
+  color: var(--SoftViolet);
+}
+.info {
+  margin: 1rem 0 1rem 0;
+  line-height: 28px;
+}
+.stats {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
 }

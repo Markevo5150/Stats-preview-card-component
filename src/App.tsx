@@ -5,11 +5,12 @@ export default function App() {
         <div className="image"></div>
         <div className="bottom">
           <h1 className="title">
-            Get <span>insights</span> that help your business grow.
+            Get <span className="accent">insights</span> that help your business
+            grow.
           </h1>
           <p className="info">
             Discover the benefits of data analytics and make better decisions
-            regarding revenue, customer experience, and overall efficiency
+            regarding revenue, customer experience, and overall efficiency.
           </p>
           <div className="stats">
             <div className="stat">
