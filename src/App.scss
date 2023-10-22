@@ -1,7 +1,17 @@
 .main-container {
   display: flex;
   width: 400px;
-  border: 1px white solid;
   flex-direction: column;
+  margin: 4rem auto;
+  background: var(--DarkDesaturatedBlue);
+  border-radius: 10px;
+}
+.image {
+  background: url(../images/image-header-mobile.jpg);
+  background-size: cover;
+  width: inherit;
   margin: auto;
+  height: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
